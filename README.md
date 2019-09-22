@@ -9,3 +9,8 @@ The second exercise was about machine learning on map reduced context . To be mo
 
 ## Exercise 3 - PageRank algorithm 
 The third exercise was about the implementing the PageRank algorithm (https://en.wikipedia.org/wiki/PageRank) using pyspark(/codes/pagerank.py).At this exercise we used as our input data a subtotal of the actual Google Web Graph which can be foung here --> https://snap.stanford.edu/data/web-Google.html . This exercise actually was really tempting as it was the first "difficult" problem I faced.
+
+## Exercise 4  - Matrix-Matrix Multiplication (MMM kernel)
+The fourth (and last) exercise was about the famous Matrix-Matrix multiplication kernel , extracted from linear algebra . This kernel is highly parallel as each element of the product matrix can be calculated independently . This exercise was an actual nightmare as it topped our ram usage due to the fact that every line of the first matrix and every row of the seconf matrix have to "go" to the same reducer.An example of calculating one element of the product matrix can be seen below :
+
+![alt text](https://github.com/filmnoirprod/advanced_databases/edit/master/mmm.png)
