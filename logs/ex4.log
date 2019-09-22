@@ -1,0 +1,449 @@
+2019-02-18 23:53:27 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-02-18 23:53:27 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-02-18 23:53:27 INFO  SparkContext:54 - Submitted application: FourthExercise
+2019-02-18 23:53:28 INFO  SecurityManager:54 - Changing view acls to: user0023
+2019-02-18 23:53:28 INFO  SecurityManager:54 - Changing modify acls to: user0023
+2019-02-18 23:53:28 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-02-18 23:53:28 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-02-18 23:53:28 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(user0023); groups with view permissions: Set(); users  with modify permissions: Set(user0023); groups with modify permissions: Set()
+2019-02-18 23:53:28 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 34706.
+2019-02-18 23:53:28 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-02-18 23:53:28 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-02-18 23:53:28 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-02-18 23:53:28 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-02-18 23:53:28 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-a6524a87-c3b7-44bf-8ee1-91d9bdee52de
+2019-02-18 23:53:28 INFO  MemoryStore:54 - MemoryStore started with capacity 93.3 MB
+2019-02-18 23:53:28 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-02-18 23:53:29 INFO  log:192 - Logging initialized @4432ms
+2019-02-18 23:53:29 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-02-18 23:53:29 INFO  Server:414 - Started @4594ms
+2019-02-18 23:53:29 INFO  AbstractConnector:278 - Started ServerConnector@5225024a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-02-18 23:53:29 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53647202{/jobs,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@16238f7{/jobs/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@59cc441a{/jobs/job,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f23cf0d{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4f96e19e{/stages,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@744190e2{/stages/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7741c503{/stages/stage,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3687f5a0{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4f1747ae{/stages/pool,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@20191022{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@23737fb6{/storage,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2a50a48d{/storage/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f0fbc5e{/storage/rdd,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37ff2f9d{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@fc9681b{/environment,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2012c1a3{/environment/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2dd64b3{/executors,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c9020b2{/executors/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@8dd008b{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e74c7ea{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5765d46b{/static,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37564fad{/,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@78f62a42{/api,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2348f310{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53333b63{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-02-18 23:53:29 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://master:4040
+2019-02-18 23:53:29 INFO  SparkContext:54 - Added file file:/home/user0023/codes/matr_dikomou.py at spark://master:34706/files/matr_dikomou.py with timestamp 1550526809851
+2019-02-18 23:53:29 INFO  Utils:54 - Copying /home/user0023/codes/matr_dikomou.py to /tmp/spark-cee27f11-002b-4bfa-b02d-b46a76c0c3e9/userFiles-7e9ea8f8-0a4c-4ead-afb2-36ef6e4f0c26/matr_dikomou.py
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://master:7077...
+2019-02-18 23:53:30 INFO  TransportClientFactory:267 - Successfully created connection to master/83.212.74.80:7077 after 46 ms (0 ms spent in bootstraps)
+2019-02-18 23:53:30 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190218235330-0007
+2019-02-18 23:53:30 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35215.
+2019-02-18 23:53:30 INFO  NettyBlockTransferService:54 - Server created on master:35215
+2019-02-18 23:53:30 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-02-18 23:53:30 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, master, 35215, None)
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190218235330-0007/0 on worker-20190218142332-83.212.74.80-33227 (83.212.74.80:33227) with 1 core(s)
+2019-02-18 23:53:30 INFO  BlockManagerMasterEndpoint:54 - Registering block manager master:35215 with 93.3 MB RAM, BlockManagerId(driver, master, 35215, None)
+2019-02-18 23:53:30 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190218235330-0007/0 on hostPort 83.212.74.80:33227 with 1 core(s), 512.0 MB RAM
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190218235330-0007/1 on worker-20190218142332-83.212.74.80-33227 (83.212.74.80:33227) with 1 core(s)
+2019-02-18 23:53:30 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190218235330-0007/1 on hostPort 83.212.74.80:33227 with 1 core(s), 512.0 MB RAM
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190218235330-0007/2 on worker-20190218142332-83.212.74.81-36809 (83.212.74.81:36809) with 1 core(s)
+2019-02-18 23:53:30 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190218235330-0007/2 on hostPort 83.212.74.81:36809 with 1 core(s), 512.0 MB RAM
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190218235330-0007/3 on worker-20190218142332-83.212.74.81-36809 (83.212.74.81:36809) with 1 core(s)
+2019-02-18 23:53:30 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, master, 35215, None)
+2019-02-18 23:53:30 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190218235330-0007/3 on hostPort 83.212.74.81:36809 with 1 core(s), 512.0 MB RAM
+2019-02-18 23:53:30 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, master, 35215, None)
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190218235330-0007/2 is now RUNNING
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190218235330-0007/3 is now RUNNING
+2019-02-18 23:53:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65fdd539{/metrics/json,null,AVAILABLE,@Spark}
+2019-02-18 23:53:30 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190218235330-0007/0 is now RUNNING
+2019-02-18 23:53:30 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190218235330-0007/1 is now RUNNING
+2019-02-18 23:53:32 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 237.1 KB, free 93.1 MB)
+2019-02-18 23:53:32 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.0 KB, free 93.0 MB)
+2019-02-18 23:53:32 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on master:35215 (size: 23.0 KB, free: 93.3 MB)
+2019-02-18 23:53:32 INFO  SparkContext:54 - Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+2019-02-18 23:53:32 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 237.2 KB, free 92.8 MB)
+2019-02-18 23:53:32 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 23.0 KB, free 92.8 MB)
+2019-02-18 23:53:32 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on master:35215 (size: 23.0 KB, free: 93.3 MB)
+2019-02-18 23:53:32 INFO  SparkContext:54 - Created broadcast 1 from textFile at NativeMethodAccessorImpl.java:0
+2019-02-18 23:53:33 INFO  FileInputFormat:249 - Total input paths to process : 1
+2019-02-18 23:53:34 INFO  NetworkTopology:426 - Adding a new node: /default-rack/83.212.74.80:50010
+2019-02-18 23:53:34 INFO  FileInputFormat:249 - Total input paths to process : 1
+2019-02-18 23:53:34 INFO  deprecation:1173 - mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2019-02-18 23:53:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2019-02-18 23:53:34 INFO  SparkContext:54 - Starting job: runJob at SparkHadoopWriter.scala:78
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Registering RDD 9 (reduceByKey at /home/user0023/codes/matr_dikomou.py:19)
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Registering RDD 5 (reduceByKey at /home/user0023/codes/matr_dikomou.py:18)
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Registering RDD 16 (coalesce at NativeMethodAccessorImpl.java:0)
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Got job 0 (runJob at SparkHadoopWriter.scala:78) with 1 output partitions
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Final stage: ResultStage 3 (runJob at SparkHadoopWriter.scala:78)
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 2)
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 2)
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[9] at reduceByKey at /home/user0023/codes/matr_dikomou.py:19), which has no missing parents
+2019-02-18 23:53:34 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (83.212.74.80:57370) with ID 0
+2019-02-18 23:53:34 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 9.4 KB, free 92.8 MB)
+2019-02-18 23:53:34 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 5.8 KB, free 92.8 MB)
+2019-02-18 23:53:34 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on master:35215 (size: 5.8 KB, free: 93.2 MB)
+2019-02-18 23:53:34 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Submitting 10 missing tasks from ShuffleMapStage 0 (PairwiseRDD[9] at reduceByKey at /home/user0023/codes/matr_dikomou.py:19) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
+2019-02-18 23:53:34 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 10 tasks
+2019-02-18 23:53:34 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 83.212.74.80:33091 with 93.3 MB RAM, BlockManagerId(0, 83.212.74.80, 33091, None)
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 1 (PairwiseRDD[5] at reduceByKey at /home/user0023/codes/matr_dikomou.py:18), which has no missing parents
+2019-02-18 23:53:34 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 9.4 KB, free 92.8 MB)
+2019-02-18 23:53:34 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 5.8 KB, free 92.8 MB)
+2019-02-18 23:53:34 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on master:35215 (size: 5.8 KB, free: 93.2 MB)
+2019-02-18 23:53:34 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, 83.212.74.80, executor 0, partition 0, ANY, 7885 bytes)
+2019-02-18 23:53:34 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+2019-02-18 23:53:34 INFO  DAGScheduler:54 - Submitting 10 missing tasks from ShuffleMapStage 1 (PairwiseRDD[5] at reduceByKey at /home/user0023/codes/matr_dikomou.py:18) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
+2019-02-18 23:53:34 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 10 tasks
+2019-02-18 23:53:35 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (83.212.74.80:57374) with ID 1
+2019-02-18 23:53:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, 83.212.74.80, executor 1, partition 1, ANY, 7885 bytes)
+2019-02-18 23:53:35 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 83.212.74.80:36409 with 93.3 MB RAM, BlockManagerId(1, 83.212.74.80, 36409, None)
+2019-02-18 23:53:35 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 83.212.74.80:33091 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:36 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 83.212.74.80:33091 (size: 23.0 KB, free: 93.3 MB)
+2019-02-18 23:53:36 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 83.212.74.80:36409 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:36 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 83.212.74.80:36409 (size: 23.0 KB, free: 93.3 MB)
+2019-02-18 23:53:41 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (83.212.74.81:34296) with ID 3
+2019-02-18 23:53:41 INFO  TaskSetManager:54 - Starting task 2.0 in stage 0.0 (TID 2, 83.212.74.81, executor 3, partition 2, ANY, 7885 bytes)
+2019-02-18 23:53:41 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (83.212.74.81:34298) with ID 2
+2019-02-18 23:53:41 INFO  TaskSetManager:54 - Starting task 3.0 in stage 0.0 (TID 3, 83.212.74.81, executor 2, partition 3, ANY, 7885 bytes)
+2019-02-18 23:53:41 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 83.212.74.81:44150 with 93.3 MB RAM, BlockManagerId(2, 83.212.74.81, 44150, None)
+2019-02-18 23:53:41 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 83.212.74.81:33822 with 93.3 MB RAM, BlockManagerId(3, 83.212.74.81, 33822, None)
+2019-02-18 23:53:42 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 83.212.74.81:33822 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:42 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 83.212.74.81:44150 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:42 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 83.212.74.81:33822 (size: 23.0 KB, free: 93.3 MB)
+2019-02-18 23:53:42 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 83.212.74.81:44150 (size: 23.0 KB, free: 93.3 MB)
+2019-02-18 23:53:44 INFO  TaskSetManager:54 - Starting task 4.0 in stage 0.0 (TID 4, 83.212.74.80, executor 1, partition 4, ANY, 7885 bytes)
+2019-02-18 23:53:44 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 9280 ms on 83.212.74.80 (executor 1) (1/10)
+2019-02-18 23:53:45 INFO  TaskSetManager:54 - Starting task 5.0 in stage 0.0 (TID 5, 83.212.74.80, executor 0, partition 5, ANY, 7885 bytes)
+2019-02-18 23:53:45 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 10702 ms on 83.212.74.80 (executor 0) (2/10)
+2019-02-18 23:53:49 INFO  TaskSetManager:54 - Starting task 6.0 in stage 0.0 (TID 6, 83.212.74.80, executor 0, partition 6, ANY, 7885 bytes)
+2019-02-18 23:53:49 INFO  TaskSetManager:54 - Finished task 5.0 in stage 0.0 (TID 5) in 4177 ms on 83.212.74.80 (executor 0) (3/10)
+2019-02-18 23:53:49 INFO  TaskSetManager:54 - Starting task 7.0 in stage 0.0 (TID 7, 83.212.74.80, executor 1, partition 7, ANY, 7885 bytes)
+2019-02-18 23:53:49 INFO  TaskSetManager:54 - Finished task 4.0 in stage 0.0 (TID 4) in 5424 ms on 83.212.74.80 (executor 1) (4/10)
+2019-02-18 23:53:50 INFO  TaskSetManager:54 - Starting task 8.0 in stage 0.0 (TID 8, 83.212.74.81, executor 2, partition 8, ANY, 7885 bytes)
+2019-02-18 23:53:50 INFO  TaskSetManager:54 - Finished task 3.0 in stage 0.0 (TID 3) in 9344 ms on 83.212.74.81 (executor 2) (5/10)
+2019-02-18 23:53:51 INFO  TaskSetManager:54 - Starting task 9.0 in stage 0.0 (TID 9, 83.212.74.81, executor 3, partition 9, ANY, 7885 bytes)
+2019-02-18 23:53:51 INFO  TaskSetManager:54 - Finished task 2.0 in stage 0.0 (TID 2) in 10158 ms on 83.212.74.81 (executor 3) (6/10)
+2019-02-18 23:53:54 INFO  TaskSetManager:54 - Starting task 6.0 in stage 1.0 (TID 10, 83.212.74.80, executor 1, partition 6, NODE_LOCAL, 7885 bytes)
+2019-02-18 23:53:54 INFO  TaskSetManager:54 - Finished task 7.0 in stage 0.0 (TID 7) in 4417 ms on 83.212.74.80 (executor 1) (7/10)
+2019-02-18 23:53:54 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 83.212.74.80:36409 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:54 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 83.212.74.80:36409 (size: 23.0 KB, free: 93.2 MB)
+2019-02-18 23:53:54 INFO  TaskSetManager:54 - Finished task 6.0 in stage 0.0 (TID 6) in 4975 ms on 83.212.74.80 (executor 0) (8/10)
+2019-02-18 23:53:55 INFO  TaskSetManager:54 - Finished task 8.0 in stage 0.0 (TID 8) in 4527 ms on 83.212.74.81 (executor 2) (9/10)
+2019-02-18 23:53:56 INFO  TaskSetManager:54 - Finished task 9.0 in stage 0.0 (TID 9) in 4823 ms on 83.212.74.81 (executor 3) (10/10)
+2019-02-18 23:53:56 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2019-02-18 23:53:56 INFO  DAGScheduler:54 - ShuffleMapStage 0 (reduceByKey at /home/user0023/codes/matr_dikomou.py:19) finished in 21.673 s
+2019-02-18 23:53:56 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-18 23:53:56 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 1)
+2019-02-18 23:53:56 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 2, ResultStage 3)
+2019-02-18 23:53:56 INFO  DAGScheduler:54 - failed: Set()
+2019-02-18 23:53:58 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 11, 83.212.74.81, executor 3, partition 0, ANY, 7885 bytes)
+2019-02-18 23:53:58 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 12, 83.212.74.80, executor 0, partition 1, ANY, 7885 bytes)
+2019-02-18 23:53:58 INFO  TaskSetManager:54 - Starting task 2.0 in stage 1.0 (TID 13, 83.212.74.81, executor 2, partition 2, ANY, 7885 bytes)
+2019-02-18 23:53:58 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 83.212.74.80:33091 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:58 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 83.212.74.81:44150 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:58 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 83.212.74.80:33091 (size: 23.0 KB, free: 93.2 MB)
+2019-02-18 23:53:58 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 83.212.74.81:44150 (size: 23.0 KB, free: 93.2 MB)
+2019-02-18 23:53:58 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 83.212.74.81:33822 (size: 5.8 KB, free: 93.3 MB)
+2019-02-18 23:53:58 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 83.212.74.81:33822 (size: 23.0 KB, free: 93.2 MB)
+2019-02-18 23:54:02 INFO  TaskSetManager:54 - Starting task 3.0 in stage 1.0 (TID 14, 83.212.74.80, executor 1, partition 3, ANY, 7885 bytes)
+2019-02-18 23:54:02 INFO  TaskSetManager:54 - Finished task 6.0 in stage 1.0 (TID 10) in 7845 ms on 83.212.74.80 (executor 1) (1/10)
+2019-02-18 23:54:05 INFO  TaskSetManager:54 - Starting task 4.0 in stage 1.0 (TID 15, 83.212.74.80, executor 0, partition 4, ANY, 7885 bytes)
+2019-02-18 23:54:05 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 12) in 7774 ms on 83.212.74.80 (executor 0) (2/10)
+2019-02-18 23:54:05 INFO  TaskSetManager:54 - Starting task 5.0 in stage 1.0 (TID 16, 83.212.74.81, executor 2, partition 5, ANY, 7885 bytes)
+2019-02-18 23:54:05 INFO  TaskSetManager:54 - Finished task 2.0 in stage 1.0 (TID 13) in 7804 ms on 83.212.74.81 (executor 2) (3/10)
+2019-02-18 23:54:06 INFO  TaskSetManager:54 - Starting task 7.0 in stage 1.0 (TID 17, 83.212.74.81, executor 3, partition 7, ANY, 7885 bytes)
+2019-02-18 23:54:06 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 11) in 8754 ms on 83.212.74.81 (executor 3) (4/10)
+2019-02-18 23:54:09 INFO  TaskSetManager:54 - Starting task 8.0 in stage 1.0 (TID 18, 83.212.74.80, executor 1, partition 8, ANY, 7885 bytes)
+2019-02-18 23:54:09 INFO  TaskSetManager:54 - Finished task 3.0 in stage 1.0 (TID 14) in 7291 ms on 83.212.74.80 (executor 1) (5/10)
+2019-02-18 23:54:13 INFO  TaskSetManager:54 - Starting task 9.0 in stage 1.0 (TID 19, 83.212.74.81, executor 2, partition 9, ANY, 7885 bytes)
+2019-02-18 23:54:13 INFO  TaskSetManager:54 - Finished task 5.0 in stage 1.0 (TID 16) in 7353 ms on 83.212.74.81 (executor 2) (6/10)
+2019-02-18 23:54:13 INFO  TaskSetManager:54 - Finished task 4.0 in stage 1.0 (TID 15) in 7493 ms on 83.212.74.80 (executor 0) (7/10)
+2019-02-18 23:54:14 INFO  TaskSetManager:54 - Finished task 7.0 in stage 1.0 (TID 17) in 7476 ms on 83.212.74.81 (executor 3) (8/10)
+2019-02-18 23:54:16 INFO  TaskSetManager:54 - Finished task 8.0 in stage 1.0 (TID 18) in 7311 ms on 83.212.74.80 (executor 1) (9/10)
+2019-02-18 23:54:20 INFO  TaskSetManager:54 - Finished task 9.0 in stage 1.0 (TID 19) in 7313 ms on 83.212.74.81 (executor 2) (10/10)
+2019-02-18 23:54:20 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2019-02-18 23:54:20 INFO  DAGScheduler:54 - ShuffleMapStage 1 (reduceByKey at /home/user0023/codes/matr_dikomou.py:18) finished in 45.574 s
+2019-02-18 23:54:20 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-18 23:54:20 INFO  DAGScheduler:54 - running: Set()
+2019-02-18 23:54:20 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 2, ResultStage 3)
+2019-02-18 23:54:20 INFO  DAGScheduler:54 - failed: Set()
+2019-02-18 23:54:20 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 2 (MapPartitionsRDD[16] at coalesce at NativeMethodAccessorImpl.java:0), which has no missing parents
+2019-02-18 23:54:20 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 10.4 KB, free 92.8 MB)
+2019-02-18 23:54:20 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 5.2 KB, free 92.7 MB)
+2019-02-18 23:54:20 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on master:35215 (size: 5.2 KB, free: 93.2 MB)
+2019-02-18 23:54:20 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1039
+2019-02-18 23:54:20 INFO  DAGScheduler:54 - Submitting 100 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[16] at coalesce at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+2019-02-18 23:54:20 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 100 tasks
+2019-02-18 23:54:20 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 20, 83.212.74.81, executor 2, partition 0, NODE_LOCAL, 7855 bytes)
+2019-02-18 23:54:20 INFO  TaskSetManager:54 - Starting task 1.0 in stage 2.0 (TID 21, 83.212.74.81, executor 3, partition 1, NODE_LOCAL, 7855 bytes)
+2019-02-18 23:54:20 INFO  TaskSetManager:54 - Starting task 2.0 in stage 2.0 (TID 22, 83.212.74.80, executor 0, partition 2, NODE_LOCAL, 7855 bytes)
+2019-02-18 23:54:20 INFO  TaskSetManager:54 - Starting task 3.0 in stage 2.0 (TID 23, 83.212.74.80, executor 1, partition 3, NODE_LOCAL, 7855 bytes)
+2019-02-18 23:54:20 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 83.212.74.81:33822 (size: 5.2 KB, free: 93.2 MB)
+2019-02-18 23:54:20 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 83.212.74.80:36409 (size: 5.2 KB, free: 93.2 MB)
+2019-02-18 23:54:20 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 83.212.74.81:44150 (size: 5.2 KB, free: 93.2 MB)
+2019-02-18 23:54:20 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 83.212.74.80:33091 (size: 5.2 KB, free: 93.2 MB)
+2019-02-18 23:54:20 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 2 to 83.212.74.81:34298
+2019-02-18 23:54:20 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 2 to 83.212.74.81:34296
+2019-02-18 23:54:20 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 2 to 83.212.74.80:57374
+2019-02-18 23:54:20 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 2 to 83.212.74.80:57370
+2019-02-18 23:54:21 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 1 to 83.212.74.81:34298
+2019-02-18 23:54:21 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 1 to 83.212.74.81:34296
+2019-02-18 23:54:21 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 1 to 83.212.74.80:57370
+2019-02-18 23:54:21 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 1 to 83.212.74.80:57374
+2019-02-19 00:09:52 INFO  TaskSetManager:54 - Starting task 4.0 in stage 2.0 (TID 24, 83.212.74.80, executor 1, partition 4, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:09:52 INFO  TaskSetManager:54 - Finished task 3.0 in stage 2.0 (TID 23) in 931995 ms on 83.212.74.80 (executor 1) (1/100)
+2019-02-19 00:09:58 INFO  TaskSetManager:54 - Starting task 5.0 in stage 2.0 (TID 25, 83.212.74.80, executor 0, partition 5, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:09:58 INFO  TaskSetManager:54 - Finished task 2.0 in stage 2.0 (TID 22) in 937483 ms on 83.212.74.80 (executor 0) (2/100)
+2019-02-19 00:11:36 INFO  TaskSetManager:54 - Starting task 6.0 in stage 2.0 (TID 26, 83.212.74.81, executor 2, partition 6, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:11:36 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 20) in 1035865 ms on 83.212.74.81 (executor 2) (3/100)
+2019-02-19 00:11:42 INFO  TaskSetManager:54 - Starting task 7.0 in stage 2.0 (TID 27, 83.212.74.81, executor 3, partition 7, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:11:42 INFO  TaskSetManager:54 - Finished task 1.0 in stage 2.0 (TID 21) in 1042361 ms on 83.212.74.81 (executor 3) (4/100)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on master:35215 in memory (size: 5.8 KB, free: 93.2 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 83.212.74.80:36409 in memory (size: 5.8 KB, free: 93.2 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 83.212.74.80:33091 in memory (size: 5.8 KB, free: 93.2 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 83.212.74.81:44150 in memory (size: 5.8 KB, free: 93.2 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 83.212.74.81:33822 in memory (size: 5.8 KB, free: 93.2 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on master:35215 in memory (size: 5.8 KB, free: 93.3 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 83.212.74.80:33091 in memory (size: 5.8 KB, free: 93.3 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 83.212.74.80:36409 in memory (size: 5.8 KB, free: 93.3 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 83.212.74.81:44150 in memory (size: 5.8 KB, free: 93.3 MB)
+2019-02-19 00:23:35 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 83.212.74.81:33822 in memory (size: 5.8 KB, free: 93.3 MB)
+2019-02-19 00:26:31 INFO  TaskSetManager:54 - Starting task 8.0 in stage 2.0 (TID 28, 83.212.74.80, executor 1, partition 8, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:26:31 INFO  TaskSetManager:54 - Finished task 4.0 in stage 2.0 (TID 24) in 999286 ms on 83.212.74.80 (executor 1) (5/100)
+2019-02-19 00:26:36 INFO  TaskSetManager:54 - Starting task 9.0 in stage 2.0 (TID 29, 83.212.74.80, executor 0, partition 9, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:26:36 INFO  TaskSetManager:54 - Finished task 5.0 in stage 2.0 (TID 25) in 998127 ms on 83.212.74.80 (executor 0) (6/100)
+2019-02-19 00:28:01 INFO  TaskSetManager:54 - Starting task 10.0 in stage 2.0 (TID 30, 83.212.74.81, executor 3, partition 10, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:28:01 INFO  TaskSetManager:54 - Finished task 7.0 in stage 2.0 (TID 27) in 978028 ms on 83.212.74.81 (executor 3) (7/100)
+2019-02-19 00:28:04 INFO  TaskSetManager:54 - Starting task 11.0 in stage 2.0 (TID 31, 83.212.74.81, executor 2, partition 11, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:28:04 INFO  TaskSetManager:54 - Finished task 6.0 in stage 2.0 (TID 26) in 988006 ms on 83.212.74.81 (executor 2) (8/100)
+2019-02-19 00:43:23 INFO  TaskSetManager:54 - Starting task 12.0 in stage 2.0 (TID 32, 83.212.74.80, executor 1, partition 12, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:43:23 INFO  TaskSetManager:54 - Finished task 8.0 in stage 2.0 (TID 28) in 1011499 ms on 83.212.74.80 (executor 1) (9/100)
+2019-02-19 00:43:23 INFO  TaskSetManager:54 - Starting task 13.0 in stage 2.0 (TID 33, 83.212.74.80, executor 0, partition 13, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:43:23 INFO  TaskSetManager:54 - Finished task 9.0 in stage 2.0 (TID 29) in 1007336 ms on 83.212.74.80 (executor 0) (10/100)
+2019-02-19 00:45:15 INFO  TaskSetManager:54 - Starting task 14.0 in stage 2.0 (TID 34, 83.212.74.81, executor 3, partition 14, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:45:15 INFO  TaskSetManager:54 - Finished task 10.0 in stage 2.0 (TID 30) in 1034614 ms on 83.212.74.81 (executor 3) (11/100)
+2019-02-19 00:45:23 INFO  TaskSetManager:54 - Starting task 15.0 in stage 2.0 (TID 35, 83.212.74.81, executor 2, partition 15, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:45:23 INFO  TaskSetManager:54 - Finished task 11.0 in stage 2.0 (TID 31) in 1038614 ms on 83.212.74.81 (executor 2) (12/100)
+2019-02-19 00:58:42 INFO  TaskSetManager:54 - Starting task 16.0 in stage 2.0 (TID 36, 83.212.74.80, executor 1, partition 16, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:58:42 INFO  TaskSetManager:54 - Finished task 12.0 in stage 2.0 (TID 32) in 919082 ms on 83.212.74.80 (executor 1) (13/100)
+2019-02-19 00:58:43 INFO  TaskSetManager:54 - Starting task 17.0 in stage 2.0 (TID 37, 83.212.74.80, executor 0, partition 17, NODE_LOCAL, 7855 bytes)
+2019-02-19 00:58:43 INFO  TaskSetManager:54 - Finished task 13.0 in stage 2.0 (TID 33) in 919695 ms on 83.212.74.80 (executor 0) (14/100)
+2019-02-19 01:02:11 INFO  TaskSetManager:54 - Starting task 18.0 in stage 2.0 (TID 38, 83.212.74.81, executor 3, partition 18, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:02:11 INFO  TaskSetManager:54 - Finished task 14.0 in stage 2.0 (TID 34) in 1015828 ms on 83.212.74.81 (executor 3) (15/100)
+2019-02-19 01:02:22 INFO  TaskSetManager:54 - Starting task 19.0 in stage 2.0 (TID 39, 83.212.74.81, executor 2, partition 19, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:02:22 INFO  TaskSetManager:54 - Finished task 15.0 in stage 2.0 (TID 35) in 1019541 ms on 83.212.74.81 (executor 2) (16/100)
+2019-02-19 01:14:59 INFO  TaskSetManager:54 - Starting task 20.0 in stage 2.0 (TID 40, 83.212.74.80, executor 0, partition 20, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:14:59 INFO  TaskSetManager:54 - Finished task 17.0 in stage 2.0 (TID 37) in 976039 ms on 83.212.74.80 (executor 0) (17/100)
+2019-02-19 01:15:00 INFO  TaskSetManager:54 - Starting task 21.0 in stage 2.0 (TID 41, 83.212.74.80, executor 1, partition 21, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:15:00 INFO  TaskSetManager:54 - Finished task 16.0 in stage 2.0 (TID 36) in 977574 ms on 83.212.74.80 (executor 1) (18/100)
+2019-02-19 01:19:10 INFO  TaskSetManager:54 - Starting task 22.0 in stage 2.0 (TID 42, 83.212.74.81, executor 3, partition 22, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:19:10 INFO  TaskSetManager:54 - Finished task 18.0 in stage 2.0 (TID 38) in 1019587 ms on 83.212.74.81 (executor 3) (19/100)
+2019-02-19 01:19:21 INFO  TaskSetManager:54 - Starting task 23.0 in stage 2.0 (TID 43, 83.212.74.81, executor 2, partition 23, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:19:21 INFO  TaskSetManager:54 - Finished task 19.0 in stage 2.0 (TID 39) in 1018810 ms on 83.212.74.81 (executor 2) (20/100)
+2019-02-19 01:31:21 INFO  TaskSetManager:54 - Starting task 24.0 in stage 2.0 (TID 44, 83.212.74.80, executor 1, partition 24, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:31:21 INFO  TaskSetManager:54 - Finished task 21.0 in stage 2.0 (TID 41) in 981380 ms on 83.212.74.80 (executor 1) (21/100)
+2019-02-19 01:31:23 INFO  TaskSetManager:54 - Starting task 25.0 in stage 2.0 (TID 45, 83.212.74.80, executor 0, partition 25, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:31:23 INFO  TaskSetManager:54 - Finished task 20.0 in stage 2.0 (TID 40) in 984438 ms on 83.212.74.80 (executor 0) (22/100)
+2019-02-19 01:33:50 INFO  TaskSetManager:54 - Starting task 26.0 in stage 2.0 (TID 46, 83.212.74.81, executor 3, partition 26, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:33:50 INFO  TaskSetManager:54 - Finished task 22.0 in stage 2.0 (TID 42) in 879838 ms on 83.212.74.81 (executor 3) (23/100)
+2019-02-19 01:34:14 INFO  TaskSetManager:54 - Starting task 27.0 in stage 2.0 (TID 47, 83.212.74.81, executor 2, partition 27, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:34:14 INFO  TaskSetManager:54 - Finished task 23.0 in stage 2.0 (TID 43) in 893151 ms on 83.212.74.81 (executor 2) (24/100)
+2019-02-19 01:47:23 INFO  TaskSetManager:54 - Starting task 28.0 in stage 2.0 (TID 48, 83.212.74.80, executor 0, partition 28, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:47:23 INFO  TaskSetManager:54 - Finished task 25.0 in stage 2.0 (TID 45) in 959481 ms on 83.212.74.80 (executor 0) (25/100)
+2019-02-19 01:47:27 INFO  TaskSetManager:54 - Starting task 29.0 in stage 2.0 (TID 49, 83.212.74.80, executor 1, partition 29, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:47:27 INFO  TaskSetManager:54 - Finished task 24.0 in stage 2.0 (TID 44) in 966574 ms on 83.212.74.80 (executor 1) (26/100)
+2019-02-19 01:49:18 INFO  TaskSetManager:54 - Starting task 30.0 in stage 2.0 (TID 50, 83.212.74.81, executor 3, partition 30, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:49:18 INFO  TaskSetManager:54 - Finished task 26.0 in stage 2.0 (TID 46) in 927909 ms on 83.212.74.81 (executor 3) (27/100)
+2019-02-19 01:49:53 INFO  TaskSetManager:54 - Starting task 31.0 in stage 2.0 (TID 51, 83.212.74.81, executor 2, partition 31, NODE_LOCAL, 7855 bytes)
+2019-02-19 01:49:53 INFO  TaskSetManager:54 - Finished task 27.0 in stage 2.0 (TID 47) in 939221 ms on 83.212.74.81 (executor 2) (28/100)
+2019-02-19 02:03:37 INFO  TaskSetManager:54 - Starting task 32.0 in stage 2.0 (TID 52, 83.212.74.80, executor 1, partition 32, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:03:37 INFO  TaskSetManager:54 - Finished task 29.0 in stage 2.0 (TID 49) in 969747 ms on 83.212.74.80 (executor 1) (29/100)
+2019-02-19 02:03:42 INFO  TaskSetManager:54 - Starting task 33.0 in stage 2.0 (TID 53, 83.212.74.80, executor 0, partition 33, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:03:42 INFO  TaskSetManager:54 - Finished task 28.0 in stage 2.0 (TID 48) in 979666 ms on 83.212.74.80 (executor 0) (30/100)
+2019-02-19 02:05:51 INFO  TaskSetManager:54 - Starting task 34.0 in stage 2.0 (TID 54, 83.212.74.81, executor 3, partition 34, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:05:51 INFO  TaskSetManager:54 - Finished task 30.0 in stage 2.0 (TID 50) in 993190 ms on 83.212.74.81 (executor 3) (31/100)
+2019-02-19 02:06:32 INFO  TaskSetManager:54 - Starting task 35.0 in stage 2.0 (TID 55, 83.212.74.81, executor 2, partition 35, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:06:32 INFO  TaskSetManager:54 - Finished task 31.0 in stage 2.0 (TID 51) in 999239 ms on 83.212.74.81 (executor 2) (32/100)
+2019-02-19 02:18:27 INFO  TaskSetManager:54 - Starting task 36.0 in stage 2.0 (TID 56, 83.212.74.80, executor 0, partition 36, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:18:27 INFO  TaskSetManager:54 - Finished task 33.0 in stage 2.0 (TID 53) in 884967 ms on 83.212.74.80 (executor 0) (33/100)
+2019-02-19 02:18:35 INFO  TaskSetManager:54 - Starting task 37.0 in stage 2.0 (TID 57, 83.212.74.80, executor 1, partition 37, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:18:35 INFO  TaskSetManager:54 - Finished task 32.0 in stage 2.0 (TID 52) in 898218 ms on 83.212.74.80 (executor 1) (34/100)
+2019-02-19 02:22:07 INFO  TaskSetManager:54 - Starting task 38.0 in stage 2.0 (TID 58, 83.212.74.81, executor 3, partition 38, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:22:07 INFO  TaskSetManager:54 - Finished task 34.0 in stage 2.0 (TID 54) in 976206 ms on 83.212.74.81 (executor 3) (35/100)
+2019-02-19 02:22:42 INFO  TaskSetManager:54 - Starting task 39.0 in stage 2.0 (TID 59, 83.212.74.81, executor 2, partition 39, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:22:42 INFO  TaskSetManager:54 - Finished task 35.0 in stage 2.0 (TID 55) in 969161 ms on 83.212.74.81 (executor 2) (36/100)
+2019-02-19 02:33:57 INFO  TaskSetManager:54 - Starting task 40.0 in stage 2.0 (TID 60, 83.212.74.80, executor 0, partition 40, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:33:57 INFO  TaskSetManager:54 - Finished task 36.0 in stage 2.0 (TID 56) in 929998 ms on 83.212.74.80 (executor 0) (37/100)
+2019-02-19 02:34:03 INFO  TaskSetManager:54 - Starting task 41.0 in stage 2.0 (TID 61, 83.212.74.80, executor 1, partition 41, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:34:03 INFO  TaskSetManager:54 - Finished task 37.0 in stage 2.0 (TID 57) in 927157 ms on 83.212.74.80 (executor 1) (38/100)
+2019-02-19 02:38:25 INFO  TaskSetManager:54 - Starting task 42.0 in stage 2.0 (TID 62, 83.212.74.81, executor 3, partition 42, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:38:25 INFO  TaskSetManager:54 - Finished task 38.0 in stage 2.0 (TID 58) in 978101 ms on 83.212.74.81 (executor 3) (39/100)
+2019-02-19 02:38:54 INFO  TaskSetManager:54 - Starting task 43.0 in stage 2.0 (TID 63, 83.212.74.81, executor 2, partition 43, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:38:54 INFO  TaskSetManager:54 - Finished task 39.0 in stage 2.0 (TID 59) in 972162 ms on 83.212.74.81 (executor 2) (40/100)
+2019-02-19 02:50:13 INFO  TaskSetManager:54 - Starting task 44.0 in stage 2.0 (TID 64, 83.212.74.80, executor 0, partition 44, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:50:13 INFO  TaskSetManager:54 - Finished task 40.0 in stage 2.0 (TID 60) in 975976 ms on 83.212.74.80 (executor 0) (41/100)
+2019-02-19 02:50:27 INFO  TaskSetManager:54 - Starting task 45.0 in stage 2.0 (TID 65, 83.212.74.80, executor 1, partition 45, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:50:27 INFO  TaskSetManager:54 - Finished task 41.0 in stage 2.0 (TID 61) in 984184 ms on 83.212.74.80 (executor 1) (42/100)
+2019-02-19 02:53:24 INFO  TaskSetManager:54 - Starting task 46.0 in stage 2.0 (TID 66, 83.212.74.81, executor 3, partition 46, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:53:24 INFO  TaskSetManager:54 - Finished task 42.0 in stage 2.0 (TID 62) in 898647 ms on 83.212.74.81 (executor 3) (43/100)
+2019-02-19 02:53:58 INFO  TaskSetManager:54 - Starting task 47.0 in stage 2.0 (TID 67, 83.212.74.81, executor 2, partition 47, NODE_LOCAL, 7855 bytes)
+2019-02-19 02:53:58 INFO  TaskSetManager:54 - Finished task 43.0 in stage 2.0 (TID 63) in 904276 ms on 83.212.74.81 (executor 2) (44/100)
+2019-02-19 03:06:24 INFO  TaskSetManager:54 - Starting task 48.0 in stage 2.0 (TID 68, 83.212.74.80, executor 1, partition 48, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:06:24 INFO  TaskSetManager:54 - Finished task 45.0 in stage 2.0 (TID 65) in 956898 ms on 83.212.74.80 (executor 1) (45/100)
+2019-02-19 03:06:30 INFO  TaskSetManager:54 - Starting task 49.0 in stage 2.0 (TID 69, 83.212.74.80, executor 0, partition 49, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:06:30 INFO  TaskSetManager:54 - Finished task 44.0 in stage 2.0 (TID 64) in 977080 ms on 83.212.74.80 (executor 0) (46/100)
+2019-02-19 03:09:05 INFO  TaskSetManager:54 - Starting task 50.0 in stage 2.0 (TID 70, 83.212.74.81, executor 3, partition 50, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:09:05 INFO  TaskSetManager:54 - Finished task 46.0 in stage 2.0 (TID 66) in 941153 ms on 83.212.74.81 (executor 3) (47/100)
+2019-02-19 03:09:27 INFO  TaskSetManager:54 - Starting task 51.0 in stage 2.0 (TID 71, 83.212.74.81, executor 2, partition 51, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:09:27 INFO  TaskSetManager:54 - Finished task 47.0 in stage 2.0 (TID 67) in 929266 ms on 83.212.74.81 (executor 2) (48/100)
+2019-02-19 03:22:34 INFO  TaskSetManager:54 - Starting task 52.0 in stage 2.0 (TID 72, 83.212.74.80, executor 1, partition 52, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:22:34 INFO  TaskSetManager:54 - Finished task 48.0 in stage 2.0 (TID 68) in 970087 ms on 83.212.74.80 (executor 1) (49/100)
+2019-02-19 03:22:34 INFO  TaskSetManager:54 - Starting task 53.0 in stage 2.0 (TID 73, 83.212.74.80, executor 0, partition 53, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:22:34 INFO  TaskSetManager:54 - Finished task 49.0 in stage 2.0 (TID 69) in 963404 ms on 83.212.74.80 (executor 0) (50/100)
+2019-02-19 03:25:20 INFO  TaskSetManager:54 - Starting task 54.0 in stage 2.0 (TID 74, 83.212.74.81, executor 3, partition 54, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:25:20 INFO  TaskSetManager:54 - Finished task 50.0 in stage 2.0 (TID 70) in 975884 ms on 83.212.74.81 (executor 3) (51/100)
+2019-02-19 03:25:55 INFO  TaskSetManager:54 - Starting task 55.0 in stage 2.0 (TID 75, 83.212.74.81, executor 2, partition 55, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:25:55 INFO  TaskSetManager:54 - Finished task 51.0 in stage 2.0 (TID 71) in 987341 ms on 83.212.74.81 (executor 2) (52/100)
+2019-02-19 03:37:16 INFO  TaskSetManager:54 - Starting task 56.0 in stage 2.0 (TID 76, 83.212.74.80, executor 0, partition 56, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:37:16 INFO  TaskSetManager:54 - Finished task 53.0 in stage 2.0 (TID 73) in 881774 ms on 83.212.74.80 (executor 0) (53/100)
+2019-02-19 03:37:30 INFO  TaskSetManager:54 - Starting task 57.0 in stage 2.0 (TID 77, 83.212.74.80, executor 1, partition 57, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:37:30 INFO  TaskSetManager:54 - Finished task 52.0 in stage 2.0 (TID 72) in 896801 ms on 83.212.74.80 (executor 1) (54/100)
+2019-02-19 03:41:36 INFO  TaskSetManager:54 - Starting task 58.0 in stage 2.0 (TID 78, 83.212.74.81, executor 3, partition 58, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:41:36 INFO  TaskSetManager:54 - Finished task 54.0 in stage 2.0 (TID 74) in 975104 ms on 83.212.74.81 (executor 3) (55/100)
+2019-02-19 03:42:04 INFO  TaskSetManager:54 - Starting task 59.0 in stage 2.0 (TID 79, 83.212.74.81, executor 2, partition 59, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:42:04 INFO  TaskSetManager:54 - Finished task 55.0 in stage 2.0 (TID 75) in 969571 ms on 83.212.74.81 (executor 2) (56/100)
+2019-02-19 03:52:42 INFO  TaskSetManager:54 - Starting task 60.0 in stage 2.0 (TID 80, 83.212.74.80, executor 0, partition 60, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:52:42 INFO  TaskSetManager:54 - Finished task 56.0 in stage 2.0 (TID 76) in 926916 ms on 83.212.74.80 (executor 0) (57/100)
+2019-02-19 03:52:59 INFO  TaskSetManager:54 - Starting task 61.0 in stage 2.0 (TID 81, 83.212.74.80, executor 1, partition 61, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:52:59 INFO  TaskSetManager:54 - Finished task 57.0 in stage 2.0 (TID 77) in 928656 ms on 83.212.74.80 (executor 1) (58/100)
+2019-02-19 03:57:42 INFO  TaskSetManager:54 - Starting task 62.0 in stage 2.0 (TID 82, 83.212.74.81, executor 3, partition 62, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:57:42 INFO  TaskSetManager:54 - Finished task 58.0 in stage 2.0 (TID 78) in 966675 ms on 83.212.74.81 (executor 3) (59/100)
+2019-02-19 03:58:16 INFO  TaskSetManager:54 - Starting task 63.0 in stage 2.0 (TID 83, 83.212.74.81, executor 2, partition 63, NODE_LOCAL, 7855 bytes)
+2019-02-19 03:58:16 INFO  TaskSetManager:54 - Finished task 59.0 in stage 2.0 (TID 79) in 971672 ms on 83.212.74.81 (executor 2) (60/100)
+2019-02-19 04:09:41 INFO  TaskSetManager:54 - Starting task 64.0 in stage 2.0 (TID 84, 83.212.74.80, executor 0, partition 64, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:09:41 INFO  TaskSetManager:54 - Finished task 60.0 in stage 2.0 (TID 80) in 1018102 ms on 83.212.74.80 (executor 0) (61/100)
+2019-02-19 04:10:14 INFO  TaskSetManager:54 - Starting task 65.0 in stage 2.0 (TID 85, 83.212.74.80, executor 1, partition 65, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:10:14 INFO  TaskSetManager:54 - Finished task 61.0 in stage 2.0 (TID 81) in 1035013 ms on 83.212.74.80 (executor 1) (62/100)
+2019-02-19 04:13:19 INFO  TaskSetManager:54 - Starting task 66.0 in stage 2.0 (TID 86, 83.212.74.81, executor 3, partition 66, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:13:19 INFO  TaskSetManager:54 - Finished task 62.0 in stage 2.0 (TID 82) in 936998 ms on 83.212.74.81 (executor 3) (63/100)
+2019-02-19 04:13:45 INFO  TaskSetManager:54 - Starting task 67.0 in stage 2.0 (TID 87, 83.212.74.81, executor 2, partition 67, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:13:45 INFO  TaskSetManager:54 - Finished task 63.0 in stage 2.0 (TID 83) in 928721 ms on 83.212.74.81 (executor 2) (64/100)
+2019-02-19 04:26:25 INFO  TaskSetManager:54 - Starting task 68.0 in stage 2.0 (TID 88, 83.212.74.80, executor 0, partition 68, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:26:25 INFO  TaskSetManager:54 - Finished task 64.0 in stage 2.0 (TID 84) in 1004064 ms on 83.212.74.80 (executor 0) (65/100)
+2019-02-19 04:27:07 INFO  TaskSetManager:54 - Starting task 69.0 in stage 2.0 (TID 89, 83.212.74.80, executor 1, partition 69, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:27:07 INFO  TaskSetManager:54 - Finished task 65.0 in stage 2.0 (TID 85) in 1012791 ms on 83.212.74.80 (executor 1) (66/100)
+2019-02-19 04:29:34 INFO  TaskSetManager:54 - Starting task 70.0 in stage 2.0 (TID 90, 83.212.74.81, executor 3, partition 70, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:29:34 INFO  TaskSetManager:54 - Finished task 66.0 in stage 2.0 (TID 86) in 974909 ms on 83.212.74.81 (executor 3) (67/100)
+2019-02-19 04:29:57 INFO  TaskSetManager:54 - Starting task 71.0 in stage 2.0 (TID 91, 83.212.74.81, executor 2, partition 71, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:29:57 INFO  TaskSetManager:54 - Finished task 67.0 in stage 2.0 (TID 87) in 972272 ms on 83.212.74.81 (executor 2) (68/100)
+2019-02-19 04:43:23 INFO  TaskSetManager:54 - Starting task 72.0 in stage 2.0 (TID 92, 83.212.74.80, executor 0, partition 72, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:43:23 INFO  TaskSetManager:54 - Finished task 68.0 in stage 2.0 (TID 88) in 1018155 ms on 83.212.74.80 (executor 0) (69/100)
+2019-02-19 04:43:56 INFO  TaskSetManager:54 - Starting task 73.0 in stage 2.0 (TID 93, 83.212.74.80, executor 1, partition 73, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:43:56 INFO  TaskSetManager:54 - Finished task 69.0 in stage 2.0 (TID 89) in 1008802 ms on 83.212.74.80 (executor 1) (70/100)
+2019-02-19 04:46:33 INFO  TaskSetManager:54 - Starting task 74.0 in stage 2.0 (TID 94, 83.212.74.81, executor 3, partition 74, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:46:33 INFO  TaskSetManager:54 - Finished task 70.0 in stage 2.0 (TID 90) in 1018806 ms on 83.212.74.81 (executor 3) (71/100)
+2019-02-19 04:47:05 INFO  TaskSetManager:54 - Starting task 75.0 in stage 2.0 (TID 95, 83.212.74.81, executor 2, partition 75, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:47:05 INFO  TaskSetManager:54 - Finished task 71.0 in stage 2.0 (TID 91) in 1027813 ms on 83.212.74.81 (executor 2) (72/100)
+2019-02-19 04:58:39 INFO  TaskSetManager:54 - Starting task 76.0 in stage 2.0 (TID 96, 83.212.74.80, executor 0, partition 76, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:58:39 INFO  TaskSetManager:54 - Finished task 72.0 in stage 2.0 (TID 92) in 916628 ms on 83.212.74.80 (executor 0) (73/100)
+2019-02-19 04:59:11 INFO  TaskSetManager:54 - Starting task 77.0 in stage 2.0 (TID 97, 83.212.74.80, executor 1, partition 77, NODE_LOCAL, 7855 bytes)
+2019-02-19 04:59:11 INFO  TaskSetManager:54 - Finished task 73.0 in stage 2.0 (TID 93) in 915375 ms on 83.212.74.80 (executor 1) (74/100)
+2019-02-19 05:03:20 INFO  TaskSetManager:54 - Starting task 78.0 in stage 2.0 (TID 98, 83.212.74.81, executor 3, partition 78, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:03:20 INFO  TaskSetManager:54 - Finished task 74.0 in stage 2.0 (TID 94) in 1007626 ms on 83.212.74.81 (executor 3) (75/100)
+2019-02-19 05:03:40 INFO  TaskSetManager:54 - Starting task 79.0 in stage 2.0 (TID 99, 83.212.74.81, executor 2, partition 79, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:03:40 INFO  TaskSetManager:54 - Finished task 75.0 in stage 2.0 (TID 95) in 995284 ms on 83.212.74.81 (executor 2) (76/100)
+2019-02-19 05:14:45 INFO  TaskSetManager:54 - Starting task 80.0 in stage 2.0 (TID 100, 83.212.74.80, executor 0, partition 80, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:14:45 INFO  TaskSetManager:54 - Finished task 76.0 in stage 2.0 (TID 96) in 965712 ms on 83.212.74.80 (executor 0) (77/100)
+2019-02-19 05:15:27 INFO  TaskSetManager:54 - Starting task 81.0 in stage 2.0 (TID 101, 83.212.74.80, executor 1, partition 81, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:15:27 INFO  TaskSetManager:54 - Finished task 77.0 in stage 2.0 (TID 97) in 975553 ms on 83.212.74.80 (executor 1) (78/100)
+2019-02-19 05:20:13 INFO  TaskSetManager:54 - Starting task 82.0 in stage 2.0 (TID 102, 83.212.74.81, executor 3, partition 82, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:20:13 INFO  TaskSetManager:54 - Finished task 78.0 in stage 2.0 (TID 98) in 1012959 ms on 83.212.74.81 (executor 3) (79/100)
+2019-02-19 05:20:34 INFO  TaskSetManager:54 - Starting task 83.0 in stage 2.0 (TID 103, 83.212.74.81, executor 2, partition 83, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:20:34 INFO  TaskSetManager:54 - Finished task 79.0 in stage 2.0 (TID 99) in 1013894 ms on 83.212.74.81 (executor 2) (80/100)
+2019-02-19 05:30:50 INFO  TaskSetManager:54 - Starting task 84.0 in stage 2.0 (TID 104, 83.212.74.80, executor 0, partition 84, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:30:50 INFO  TaskSetManager:54 - Finished task 80.0 in stage 2.0 (TID 100) in 965196 ms on 83.212.74.80 (executor 0) (81/100)
+2019-02-19 05:31:52 INFO  TaskSetManager:54 - Starting task 85.0 in stage 2.0 (TID 105, 83.212.74.80, executor 1, partition 85, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:31:52 INFO  TaskSetManager:54 - Finished task 81.0 in stage 2.0 (TID 101) in 985524 ms on 83.212.74.80 (executor 1) (82/100)
+2019-02-19 05:34:50 INFO  TaskSetManager:54 - Starting task 86.0 in stage 2.0 (TID 106, 83.212.74.81, executor 3, partition 86, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:34:50 INFO  TaskSetManager:54 - Finished task 82.0 in stage 2.0 (TID 102) in 876410 ms on 83.212.74.81 (executor 3) (83/100)
+2019-02-19 05:35:17 INFO  TaskSetManager:54 - Starting task 87.0 in stage 2.0 (TID 107, 83.212.74.81, executor 2, partition 87, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:35:17 INFO  TaskSetManager:54 - Finished task 83.0 in stage 2.0 (TID 103) in 883629 ms on 83.212.74.81 (executor 2) (84/100)
+2019-02-19 05:47:09 INFO  TaskSetManager:54 - Starting task 88.0 in stage 2.0 (TID 108, 83.212.74.80, executor 0, partition 88, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:47:09 INFO  TaskSetManager:54 - Finished task 84.0 in stage 2.0 (TID 104) in 979064 ms on 83.212.74.80 (executor 0) (85/100)
+2019-02-19 05:47:49 INFO  TaskSetManager:54 - Starting task 89.0 in stage 2.0 (TID 109, 83.212.74.80, executor 1, partition 89, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:47:49 INFO  TaskSetManager:54 - Finished task 85.0 in stage 2.0 (TID 105) in 956875 ms on 83.212.74.80 (executor 1) (86/100)
+2019-02-19 05:50:18 INFO  TaskSetManager:54 - Starting task 90.0 in stage 2.0 (TID 110, 83.212.74.81, executor 3, partition 90, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:50:18 INFO  TaskSetManager:54 - Finished task 86.0 in stage 2.0 (TID 106) in 928767 ms on 83.212.74.81 (executor 3) (87/100)
+2019-02-19 05:50:49 INFO  TaskSetManager:54 - Starting task 91.0 in stage 2.0 (TID 111, 83.212.74.81, executor 2, partition 91, NODE_LOCAL, 7855 bytes)
+2019-02-19 05:50:49 INFO  TaskSetManager:54 - Finished task 87.0 in stage 2.0 (TID 107) in 931787 ms on 83.212.74.81 (executor 2) (88/100)
+2019-02-19 06:03:15 INFO  TaskSetManager:54 - Starting task 92.0 in stage 2.0 (TID 112, 83.212.74.80, executor 0, partition 92, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:03:15 INFO  TaskSetManager:54 - Finished task 88.0 in stage 2.0 (TID 108) in 966051 ms on 83.212.74.80 (executor 0) (89/100)
+2019-02-19 06:03:47 INFO  TaskSetManager:54 - Starting task 93.0 in stage 2.0 (TID 113, 83.212.74.80, executor 1, partition 93, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:03:47 INFO  TaskSetManager:54 - Finished task 89.0 in stage 2.0 (TID 109) in 957888 ms on 83.212.74.80 (executor 1) (90/100)
+2019-02-19 06:06:45 INFO  TaskSetManager:54 - Starting task 94.0 in stage 2.0 (TID 114, 83.212.74.81, executor 3, partition 94, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:06:45 INFO  TaskSetManager:54 - Finished task 90.0 in stage 2.0 (TID 110) in 986650 ms on 83.212.74.81 (executor 3) (91/100)
+2019-02-19 06:07:14 INFO  TaskSetManager:54 - Starting task 95.0 in stage 2.0 (TID 115, 83.212.74.81, executor 2, partition 95, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:07:14 INFO  TaskSetManager:54 - Finished task 91.0 in stage 2.0 (TID 111) in 985103 ms on 83.212.74.81 (executor 2) (92/100)
+2019-02-19 06:18:00 INFO  TaskSetManager:54 - Starting task 96.0 in stage 2.0 (TID 116, 83.212.74.80, executor 0, partition 96, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:18:00 INFO  TaskSetManager:54 - Finished task 92.0 in stage 2.0 (TID 112) in 884744 ms on 83.212.74.80 (executor 0) (93/100)
+2019-02-19 06:18:38 INFO  TaskSetManager:54 - Starting task 97.0 in stage 2.0 (TID 117, 83.212.74.80, executor 1, partition 97, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:18:38 INFO  TaskSetManager:54 - Finished task 93.0 in stage 2.0 (TID 113) in 891008 ms on 83.212.74.80 (executor 1) (94/100)
+2019-02-19 06:22:53 INFO  TaskSetManager:54 - Starting task 98.0 in stage 2.0 (TID 118, 83.212.74.81, executor 3, partition 98, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:22:53 INFO  TaskSetManager:54 - Finished task 94.0 in stage 2.0 (TID 114) in 968224 ms on 83.212.74.81 (executor 3) (95/100)
+2019-02-19 06:23:10 INFO  TaskSetManager:54 - Starting task 99.0 in stage 2.0 (TID 119, 83.212.74.81, executor 2, partition 99, NODE_LOCAL, 7855 bytes)
+2019-02-19 06:23:10 INFO  TaskSetManager:54 - Finished task 95.0 in stage 2.0 (TID 115) in 956187 ms on 83.212.74.81 (executor 2) (96/100)
+2019-02-19 06:33:28 INFO  TaskSetManager:54 - Finished task 96.0 in stage 2.0 (TID 116) in 927770 ms on 83.212.74.80 (executor 0) (97/100)
+2019-02-19 06:33:53 INFO  TaskSetManager:54 - Finished task 97.0 in stage 2.0 (TID 117) in 915571 ms on 83.212.74.80 (executor 1) (98/100)
+2019-02-19 06:38:57 INFO  TaskSetManager:54 - Finished task 98.0 in stage 2.0 (TID 118) in 964216 ms on 83.212.74.81 (executor 3) (99/100)
+2019-02-19 06:39:13 INFO  TaskSetManager:54 - Finished task 99.0 in stage 2.0 (TID 119) in 962515 ms on 83.212.74.81 (executor 2) (100/100)
+2019-02-19 06:39:13 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2019-02-19 06:39:13 INFO  DAGScheduler:54 - ShuffleMapStage 2 (coalesce at NativeMethodAccessorImpl.java:0) finished in 24292.928 s
+2019-02-19 06:39:13 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-19 06:39:13 INFO  DAGScheduler:54 - running: Set()
+2019-02-19 06:39:13 INFO  DAGScheduler:54 - waiting: Set(ResultStage 3)
+2019-02-19 06:39:13 INFO  DAGScheduler:54 - failed: Set()
+2019-02-19 06:39:13 INFO  DAGScheduler:54 - Submitting ResultStage 3 (MapPartitionsRDD[22] at saveAsTextFile at NativeMethodAccessorImpl.java:0), which has no missing parents
+2019-02-19 06:39:14 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 75.4 KB, free 92.7 MB)
+2019-02-19 06:39:14 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 28.0 KB, free 92.7 MB)
+2019-02-19 06:39:14 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on master:35215 (size: 28.0 KB, free: 93.2 MB)
+2019-02-19 06:39:14 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1039
+2019-02-19 06:39:14 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[22] at saveAsTextFile at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+2019-02-19 06:39:14 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 1 tasks
+2019-02-19 06:39:14 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 120, 83.212.74.80, executor 0, partition 0, NODE_LOCAL, 7929 bytes)
+2019-02-19 06:39:16 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 83.212.74.80:33091 (size: 28.0 KB, free: 93.2 MB)
+2019-02-19 06:39:17 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 83.212.74.80:57370
+2019-02-19 06:43:22 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 120) in 248325 ms on 83.212.74.80 (executor 0) (1/1)
+2019-02-19 06:43:22 INFO  DAGScheduler:54 - ResultStage 3 (runJob at SparkHadoopWriter.scala:78) finished in 248.856 s
+2019-02-19 06:43:22 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2019-02-19 06:43:22 INFO  DAGScheduler:54 - Job 0 finished: runJob at SparkHadoopWriter.scala:78, took 24588.160449 s
+2019-02-19 06:43:23 INFO  SparkHadoopWriter:54 - Job job_20190218235334_0022 committed.
+2019-02-19 06:43:27 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2019-02-19 06:43:27 INFO  AbstractConnector:318 - Stopped Spark@5225024a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-02-19 06:43:27 INFO  SparkUI:54 - Stopped Spark web UI at http://master:4040
+2019-02-19 06:43:28 INFO  StandaloneSchedulerBackend:54 - Shutting down all executors
+2019-02-19 06:43:28 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 - Asking each executor to shut down
+2019-02-19 06:43:28 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2019-02-19 06:43:28 INFO  MemoryStore:54 - MemoryStore cleared
+2019-02-19 06:43:28 INFO  BlockManager:54 - BlockManager stopped
+2019-02-19 06:43:28 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2019-02-19 06:43:28 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2019-02-19 06:43:28 INFO  SparkContext:54 - Successfully stopped SparkContext
+2019-02-19 06:43:28 INFO  ShutdownHookManager:54 - Shutdown hook called
+2019-02-19 06:43:28 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-7ec61b47-23f5-4af9-b77f-f7135d74cd48
+2019-02-19 06:43:28 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-cee27f11-002b-4bfa-b02d-b46a76c0c3e9
+2019-02-19 06:43:28 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-cee27f11-002b-4bfa-b02d-b46a76c0c3e9/pyspark-72069953-2f7f-4163-a45b-e01312ff4ef5

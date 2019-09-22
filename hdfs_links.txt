@@ -1,0 +1,35 @@
+Datasets 
+
+A.csv:
+http://83.212.74.80:50075/webhdfs/v1/user/user0023/inputs/A.csv?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+B.csv:
+http://83.212.74.80:50075/webhdfs/v1/user/user0023/inputs/B.csv?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+web-Google.txt:
+http:// 83.212.74.80:50075/webhdfs/v1/user/user0023/inputs/web-Google.txt?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+yellow_tripdata_1m.csv:
+http://83.212.74.80:50075/webhdfs/v1/user/user0023/inputs/yellow_tripdata_1m.csv?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+yellow_tripvendors_1m.csv:
+http://83.212.74.80:50075/webhdfs/v1/user/user0023/inputs/yellow_tripvendors_1m.csv?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+Total presentation :
+http://83.212.74.80:50070/explorer.html#/user/user0023/inputs
+
+Results
+
+Exercise 1a : http://83.212.74.80:50075/webhdfs/v1/user/user0023/outputs/ex1a.out?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+Exercise 1b: http://83.212.74.80:50075/webhdfs/v1/user/user0023/outputs/ex1b.out?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+Exercise 2: http://83.212.74.80:50075/webhdfs/v1/user/user0023/outputs/ex2.out?op=OPEN&namenoderpcaddress=master:9000&offset=0 
+
+Exercise 3: http://83.212.74.80:50075/webhdfs/v1/user/user0023/outputs/ex3.out?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+Exercise 4: 
+http://83.212.74.80:50075/webhdfs/v1/user/user0023/outputs/ex4.out?op=OPEN&namenoderpcaddress=master:9000&offset=0
+
+Total presentation :
+http://83.212.74.80:50070/explorer.html#/user/user0023/outputs
