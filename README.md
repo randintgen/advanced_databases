@@ -1,0 +1,2 @@
+# Advanced topics in databases
+This project was developped as part of the 9th semester course, Advanced Topics in databases (of the National Technical University of Athens) taught by Ionnis Konstantinou (http://www.cslab.ntua.gr/~ikons/) in the winter semester of 2018.At this project I had the opportunity to implement algorithms in map reduce context using Apache Spark and Hadoop (HDFS) on a distributed cluster.
